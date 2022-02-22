@@ -25,7 +25,7 @@ h2{
 h3{
     font-family: 'Amatic SC', cursive;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px;
 }
 
@@ -59,7 +59,7 @@ p{
 /* Header */
 
 .logo { 
-    width: 90px;
+    width: 80px;
     filter: brightness(1.1);
     display: inline-block; 
 }
@@ -67,10 +67,9 @@ p{
 header {
     width: 100%;
     background-color:black;
-    height: 90px;
-    position: sticky; 
+    height: 5.5em;
     top: 0px;
-    z-index: 4;
+    z-index: 5;
 }
 
 #menu-bar {
@@ -170,7 +169,7 @@ header .iconoHbg:hover {
 .infoEvento{
     text-align: left;
     margin-left: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Amatic SC';
     text-align: justify;
     color: gray;
     font-size: 15px;
