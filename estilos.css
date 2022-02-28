@@ -196,6 +196,14 @@ header .iconoHbg:hover {
     cursor: pointer;
 }
 
+.gridContainer .img:hover {
+    background-color: rgb(70, 69, 69);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: transform 1s;
+    border-color: grey;
+}
+
 /* Estilo Sección Contacto */
 
 .contacto {
