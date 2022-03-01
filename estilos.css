@@ -67,9 +67,11 @@ p{
 header {
     width: 100%;
     background-color:black;
+    height: 2.5em;
     height: 5.5em;
     top: 0px;
     z-index: 5;
+    position: sticky;
 }
 
 #menu-bar {
@@ -219,7 +221,7 @@ header .iconoHbg:hover {
     background-color: white;
     width: 90%;
     margin: 30px 0 30px 0;
-    border: 5px solid teal;
+    border: 5px solid grey;
     border-radius: 10px;
 }
 
@@ -229,16 +231,16 @@ header .iconoHbg:hover {
 }
 
 .contacto .contacto__contenedor .contacto__contenedor__titulo .contacto__titulo {
-    color: teal;
+    color: rgb(70, 69, 69);
     margin-bottom: 40px;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: normal;
     letter-spacing: 20px;
 }
 
 .contacto .contacto__contenedor .contacto__form {
-    border: 3px solid teal;
+    border: 3px solid grey;
     border-radius: 10px;
 }
 
@@ -276,11 +278,11 @@ header .iconoHbg:hover {
     width: 15%;
     font-size: 1.2em;
     border-color: white;
-    background-color: teal;
+    background-color: grey;
 }
 
 .contacto .contacto__contenedor .contacto__form .contacto__boton__contenedor :hover {
-    background-color: rgb(0, 109, 128);
+    background-color: rgb(110, 94, 2);
 }
 
 /* Footer */
