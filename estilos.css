@@ -124,6 +124,10 @@ header .iconoHbg:hover {
     width: 100%;
     height: max-content;
     display: flex;    
+    justify-content: left;
+}
+
+.carousel slide{
     justify-content: center;
 }
 
