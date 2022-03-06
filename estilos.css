@@ -160,6 +160,11 @@ header .iconoHbg:hover {
     color: black;
 }
 
+.publicaciones__link:hover{
+    border-bottom: 1px solid;
+    background: #CDFEAA;
+}
+
 /* Estilo Sección Eventos */
 
 .tituloEvento{
@@ -179,11 +184,6 @@ header .iconoHbg:hover {
     text-align: justify;
     color: gray;
     font-size: 15px;
-}
-
-.publicaciones__link:hover{
-    border-bottom: 1px solid;
-    background: #CDFEAA;
 }
 
 /* Estilo Sección Galeria */
@@ -331,7 +331,6 @@ footer {
 @media only screen and (min-width:50px) and (max-width:479px){
     .sec__galeria .gridContainer{
         grid-template-columns: 200px repeat(1, 1fr);
-        margin-left: 100px;
     }
     .img1{
         grid-column: 1;
@@ -425,6 +424,11 @@ footer {
     .footer .footer__redes .footer__redes__item {
         margin: 0 0em 0 0em;
     }
+
+    .table-dark{
+        font-size: 10px;
+    }
+
 }
 
 @media only screen and (min-width:480px) and (max-width:1079px){
