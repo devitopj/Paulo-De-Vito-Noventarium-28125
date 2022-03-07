@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="descripcion" content="En Noventarium podes mandarnos tus comentarios o sugerencias">
+        <meta name="keywords" content="colecciones, anime, comics, juguetes, figuras, marvel, dc, manga">
+        <meta name="author" content="Paulo"/>
+        <meta name="copyright" content="Paulo SA" />
+        <meta name="title" content="Noventarium - Paulo SA">
+        <meta name="ROBOTS" content="INDEX, FOLLOW">
+        <meta name="revisit-after" content="7 Days">
+        <meta name="Content-Language" content="Es">
+        <meta name="distribution" content="National">
+        <meta name="country" content="Argentina">
+        <meta name="city" content="Buenos Aires">
+
+        <title> Noventarium - Paulo De Vito</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="./estilos.css">
+    </head>
+
+    <body>
+        <header>
+            <img class="logo" src="./Imagenes/logo.png" alt="Logo Noventarium" title="Logo">
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar" class="iconoHbg">
+                <i class="fas fa-bars"></i>
+            </label>
+            <nav class="menu">
+                <ul class="menuBox">
+                    <li class="nav-item mx-3"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item mx-3"><a class="nav-link" href="./index.html">Publicaciones</a></li>
+                    <li class="nav-item mx-3"><a class="nav-link" href="./index.html">Eventos</a></li>
+                    <li class="nav-item mx-3"><a class="nav-link" href="./galeria.html">Galeria</a></li>
+                    <li class="nav-item mx-3"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- SECCION CONTACTO -->
+        <main class="principal__contacto">
+            <section class="sec contacto d-flex justify-content-center" id="saltoCont" >
+                <article class="contacto__contenedor d-flex flex-column p-5">
+                    <div class="contacto__contenedor__titulo">
+                        <h2 class="contacto__titulo" id="cont">Escribinos</h2>
+                    </div>
+                    <form class="contacto__form" action="/action_page.php">
+                        <div class="contacto__form__bloque">
+                            <div class="contacto__bloque__inputs">
+                                <div class="contacto__form__item form-group">
+                                    <label for="nombre">Nombre:</label>
+                                    <input type="text" class="form-control input1" placeholder="Ingrese su nombre" id="nombre" required>
+                                </div>
+                                <div class=" contacto__form__div form-group">
+                                    <label class="contacto__" for="email">Email:</label>
+                                    <input type="email" class="form-control input2" placeholder="Ingrese su email" id="email" required>
+                                </div>
+                                <div class="contacto__form__div form-group">
+                                    <label class="contacto__" for="pwd">Celular:</label>
+                                    <input type="number" class="form-control input3" placeholder="Ingrese su celular" id="pwd" required>
+                                </div>
+                            </div>
+                            <div class="contacto__form__textarea form-group">
+                                <textarea class="form-control input4" id="textarea" placeholder="Mandanos tus comentarios"></textarea>
+                            </div>
+                        </div>
+                        <div class="contacto__boton__contenedor">
+                            <!-- <button class="contacto__boton btn btn-dark" type="submit" value="Enviar"> Enviar</button> -->
+                            <!-- <button class="contacto__boton btn btn-dark" type="reset"> Limpiar </button> -->
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Limpiar">
+
+                        </div>
+                    </form>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <h3>Seguinos en nuestras redes</h3>
+            <ul class="footer__redes">
+                <li class="footer__redes__item list-unstyled"><a href="#" class="footer__redes__link fab fa-instagram-square display-4 mx-3"></a></li>
+                <li class="footer__redes__item list-unstyled"><a href="#" class="footer__redes__link fab fa-facebook-square display-4 mx-3"></a></li>
+                <li class="footer__redes__item list-unstyled"><a href="#" class="footer__redes__link fab fa-youtube display-4 mx-3"></a></li>
+                <li class="footer__redes__item list-unstyled"><a href="#" class="footer__redes__link fab fa-twitter display-4 mx-3"></a></li>
+                <li class="footer__redes__item list-unstyled"><a href="#" class="footer__redes__link fab fa-tiktok display-4 mx-3"></a></li>
+            </ul>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/8a6e181cb0.js" crossorigin="anonymous"></script>
+    </body>
+</html>
