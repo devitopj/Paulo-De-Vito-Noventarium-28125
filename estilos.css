@@ -339,6 +339,7 @@ footer {
         grid-template-columns: 200px repeat(1, 1fr);
         margin: 20px;
     }
+
     .img1{
         grid-column: 1;
         grid-row: 1;
@@ -403,6 +404,10 @@ footer {
         background-position: top;
     }
 
+    .sec__galeria .gridContainer{
+        height: 90%;
+    }
+
     .contacto .contacto__contenedor .contacto__form .contacto__boton__contenedor .contacto__boton {
         width: 35%;
         font-size: 0.8em;
@@ -435,12 +440,18 @@ footer {
     .table-dark{
         font-size: 10px;
     }
+
+    footer {
+        height: 10vh;
+    }
+
 }
 
 @media only screen and (min-width:480px) and (max-width:1079px){
     .galeria .gridContainer{
         grid-template-columns: repeat(3, 1fr);
     } 
+
     .img1{
         grid-column: 1/2;
         grid-row: 1/2;
@@ -505,6 +516,10 @@ footer {
         background-position: center;
     }
 
+    .sec__galeria .gridContainer{
+        height: 95%;
+    }
+
     .contacto .contacto__contenedor .contacto__form .contacto__boton__contenedor .contacto__boton {
         width: 25%;
         font-size: 0.8em;
@@ -524,6 +539,7 @@ footer {
     .galeria .gridContainer{
         grid-template-columns: repeat(4,1fr);
     }   
+
     .img1{
         grid-column: 1/2;
         grid-row: 1/3;
