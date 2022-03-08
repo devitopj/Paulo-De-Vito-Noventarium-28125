@@ -55,7 +55,7 @@ header {
     background-color:black;
     height: 5.5em;
     top: 0px;
-    z-index: 5;
+    z-index: 16;
     position: sticky;
 }
 
@@ -143,7 +143,7 @@ header .iconoHbg:hover {
     height: 5px;
     width: 20px;
     border-radius: 40%;
-    z-index: 1;
+    z-index: 5;
 }
 
 .carousel-inner img{
@@ -602,6 +602,10 @@ footer {
         background-image: url(./Imagenes/Galeria7.jpg);
         background-size: cover;
         background-position: unset;
+    }
+
+    .sec__galeria .gridContainer{
+        height: 96%;
     }
 
     .menu {
